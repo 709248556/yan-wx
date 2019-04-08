@@ -1,0 +1,59 @@
+<view class="container">
+
+  <view class="about-item">
+
+    <view class="item-left">
+      <label>毕设名称: </label>
+       <text>{{shopInfo.shopName}}</text> 
+    </view>
+    <view class="item-right">
+      <image src="/static/images/icon_collect_checked.png" class="right-icon"></image>
+    </view>
+  </view>
+
+    <view class="about-item">
+
+    <view class="item-left">
+      <label>学生名称: </label>
+       <text>{{shopInfo.name}}</text> 
+    </view>
+    <view class="item-right">
+      <image src="/static/images/ic_menu_topic_pressed.png" class="right-icon"></image>
+    </view>
+  </view>
+
+  <view class="about-item">
+
+    <view class="item-left">
+      <label>导师名称: </label>
+       <text>{{shopInfo.leaderTeacher}}</text> 
+    </view>
+    <view class="item-right">
+      <image src="/static/images/customer.png" class="right-icon"></image>
+    </view>
+  </view>
+
+  <view class="about-item">
+    <view class="item-left">
+      <label>Github地址: </label>
+       <text>{{shopInfo.address}}</text> 
+    </view>
+
+    <view class="item-right" bindtap="showLocation">
+      <image src="/static/images/ico-addr.png" class="right-icon"></image>
+    </view>
+  </view>
+
+  <view class="about-item">
+    <view class="item-left">
+      <label>电话号码:    </label>
+       <text>{{shopInfo.linkPhone}}</text> 
+    </view>
+    <view class="item-right" bindtap="callPhone">
+      <image src="/static/images/telephone.png" class="right-icon"></image>
+    </view>
+  </view>
+
+
+
+</view>
